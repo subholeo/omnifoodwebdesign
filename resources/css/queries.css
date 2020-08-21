@@ -1,0 +1,126 @@
+/*for small phones from 0-480px*/
+@media only screen and (max-width:480px){
+    .app-screen{margin-right: 125px;}
+    .icon-big:hover{-webkit-transform: none;transform: none;}
+    body{font-size: 10px;}
+    
+    blockquote{
+    font-size: 60%;    
+    padding: 3%;
+    line-height: 140%;
+    margin-top: 5px;}
+    
+    blockquote:before{
+    font-size: 300%;
+    top: -1px;
+    left: -1px;}
+    
+    .plan-box div{margin-bottom: 10px;}
+    
+    section{padding: 25px 0;}
+    .contact-form{width: 100%;}
+    
+    .btn-full,
+    .btn-ghost{margin-bottom: 5px;}
+}
+
+
+
+
+
+/*for bigger phones from 481-767px*/
+@media only screen and (max-width:767px){
+    body{font-size: 16px;}
+    .icon-big:hover{-webkit-transform: none;transform: none;}
+    .app-screen{margin-right: 125px;}
+    section{padding: 30px 0;}
+    .row,
+    .hero-text-box{padding: 0 4%;}
+    
+    .col{width: 100%;}
+    
+     blockquote{
+    font-size: 60%;    
+    padding: 3%;
+    line-height: 140%;
+    margin-top: 5px;}
+    
+    blockquote:before{
+    font-size: 300%;
+    top: -1px;
+    left: -1px;}
+    
+    .main-nav{display: none;}
+    
+    .mobile-nav-icon{display: inline-block;}
+    .main-nav{float: left;}
+    .main-nav li{display: block; padding:5px; }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+    }
+    
+    .footer-nav{font-size: 50%;}
+    
+    .social-links i{font-size: 50%;}
+    
+    .footer-nav li,
+.social-links i{margin-right: 10px;}
+
+.foot-note{font-size: 50%;}
+}
+
+
+
+
+
+/*for tablets from 768-1023px*/
+@media only screen and (max-width:1023px){
+    body{font-size: 18px; }
+    
+    section{padding: 60px 0;}
+    
+    .logo-text{font-size: 100%;}
+    
+    .long-copy{
+    line-height: 140%;
+    width: 80%;
+    margin-left: 10%;}
+    
+    .work-steps{margin-bottom: 20px;}
+    .work-steps:last-of-type{margin-bottom: 40px;}
+    .work-steps div{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    font-size: 100%;}
+    
+    .steps-box:last-child{margin-top: 50px;}
+    .btn-app img{height: 25px;}
+    
+    .icon-city{
+    font-size: 90%;
+    width: 20px;
+    margin-right: 2px;}
+    .city-feature{font-size: 80%;}
+    .plan-price{font-size: 180%;
+    margin-bottom: 10px;}
+    .plan-price-meal{font-size: 80%;}
+    .plan-box ul li{padding: 5px 0;font-size: 65%;}
+    .contact-form{width: 90%;}
+}
+    
+
+    
+    
+/*for big tablets from 1024-1200px but smaller than 1140px row*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+    position:absolute;
+    width: 100%;
+    padding: 0 2%;
+}
+    .row{padding: 0 2%;}
+}
